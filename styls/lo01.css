@@ -6,6 +6,9 @@
   font-style: normal;
 }
 /* common */
+.btn-c:hover{
+  transform: scale(1.5);
+}
 .btn-c{
   color: #FFFFFF;
   background-color: #4E47FF;
@@ -14,6 +17,7 @@
   font-weight: 500;
   padding: 15px 30px;
   border: none;
+  transition: 0.3s;
 }
 .fsz{
   font-size: 4rem;
