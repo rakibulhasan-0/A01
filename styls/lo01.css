@@ -7,7 +7,8 @@
 }
 /* common */
 .btn-c:hover{
-  transform: scale(1.5);
+  background-color: burlywood;
+  transform: scale(1.02);
 }
 .btn-c{
   color: #FFFFFF;
@@ -146,4 +147,74 @@
 .test-2{
   color: rgba(30, 30, 30, 1);
   margin-top: -20px;
+}
+
+/* touch */
+.touch-s {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #f2f5ff;
+  flex-wrap: wrap;
+  margin: 150px;
+}
+
+.to-c {
+  font-size: 4rem;
+}
+.touch-1 {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.touch-1 label {
+  margin: 10px 0 5px;
+  color: #333;
+}
+.touch-1 button{
+  margin-top: 15px;
+}
+.touch-1 input,
+.touch-1 textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+/* footer */
+.footer-t {
+  background-color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.f-logo {
+  font-size: 5rem;
+  font-weight: 900;
+  color: #4e47ff;
+  margin-bottom: 15px;
+}
+
+.f-0 {
+  font-size: 16px;
+  color: #666;
+  max-width: 500px;
+  margin: auto;
+}
+
+.f-1 {
+  margin-top: 20px;
+}
+
+.f-1 a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #666;
+  font-size: 16px;
+}
+
+.f-1 a:hover {
+  color: #4e47ff;
 }
